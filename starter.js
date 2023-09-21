@@ -192,3 +192,13 @@ const remaining = expenses.reduce((acc, cur) => {
 
 
 console.log(remaining)
+
+
+let a = [{n:1}, {n:50}, {n:200}]
+
+let aSumValue = a.reduce((acc, cur) => {
+    return acc + cur.n
+})
+
+
+console.log(aSumValue)
